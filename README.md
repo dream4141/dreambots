@@ -5,7 +5,7 @@ It will send you the records of the used server
 
 Records appear in the command window
 
-İnstall
+# İnstall
 
 1.install discord.js
 
