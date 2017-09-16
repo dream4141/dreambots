@@ -1,8 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const ayarlar = require('./config.json');
+const config = require('./config.json');
 
-var prefix = ayarlar.prefix;
+var prefix = config.prefix;
 
 
 client.on('ready', () => {
@@ -13,7 +13,7 @@ client.on('ready', () => {
   
   client.on('message', msg => {
   console.log(`LOG: S: ${msg.guild.name} M: ${msg.content} A: ${msg.author.tag}`);
-  if (msg.author.id === ayarlar.id) return;
+  if (msg.author.id === config.id) return;
   if (msg.author.bot) return;
   });
   
