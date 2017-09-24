@@ -6,7 +6,7 @@ var prefix = config.prefix;
 
 
 client.on('ready', () => {
-  console.log(`Loglar yukleniyor lutfen bekleyin...`);
+  console.log(`Logs loading please wait...`);
 });
 
 
