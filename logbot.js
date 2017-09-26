@@ -10,6 +10,18 @@ client.on('ready', () => {
 });
 
 
+
+//////////////////////////////////////
+//##################################//
+//#                                #//
+//#         SELFBOT MADE BY        #//
+//#        Ripbyrustavi#8091       #//
+//#         DISCORD v12            #//
+//#                                #//
+//##################################//
+//////////////////////////////////////
+
+
   
   client.on('message', msg => {
   console.log(`LOG: S: ${msg.guild.name} M: ${msg.content} A: ${msg.author.tag}`);
